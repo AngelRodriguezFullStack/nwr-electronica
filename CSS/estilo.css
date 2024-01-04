@@ -10,8 +10,8 @@ a{text-decoration: none}
 }
 
 /**************INCIO***************/
-header nav{
-	background-color: #ACCABE;
+.navbar__nuevo{
+	background-color: #accabe;
 }
 
 body{
