@@ -352,7 +352,7 @@ input, textarea{
 }
 
 .btn__contacto{
-	font-size: 17px;
+	font-size: 20px;
 	font-weight: 600;
 	cursor: pointer;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1)
@@ -367,7 +367,7 @@ input, textarea{
 }
 
 .link__ws a{
-	color: #18bb49;
+	color: #239b4b;
 }
 
 @media(max-width: 991px) {
