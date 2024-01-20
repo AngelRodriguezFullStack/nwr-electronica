@@ -1,0 +1,42 @@
+.contenedor-1{
+	padding: 3rem;
+	display: flex;
+	gap: 3rem;
+}
+
+
+.titulo1{
+	padding: 3rem;
+	font-size: 150px;
+	font-weight: 500;
+}
+
+.parrafo1{
+	padding-left: 3rem;
+	font-weight: 200;
+	font-size: 20px;
+
+}
+
+
+.contenedor-imagen{
+	display: flex;
+	justify-content: right;
+	padding-right: 3rem;
+	
+	
+}
+
+.imagen-inicio{
+ height: 200px;
+ width: 200px;
+ border-radius: 5%;
+ border: black;
+
+}
+
+body{
+    background-color: #accabe;	
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh; }

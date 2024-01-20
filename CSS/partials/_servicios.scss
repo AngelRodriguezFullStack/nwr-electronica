@@ -1,0 +1,35 @@
+.titulo3{
+	padding: 2rem;
+	font-size: 80px;
+	font-weight: 400;
+}
+.contenedor-parrafo-servicios{
+	padding: 1rem;	
+}
+.parrafo-servicio{
+	font-size: 30px;
+	font-weight: 400;
+}
+.grillas{
+	display: grid;
+	grid-template-columns: repeat(4, 0.5fr);
+	justify-items: center;
+	align-items: center;
+	padding: 1rem;	
+}
+.grilla{
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	border-radius: 1rem;
+	padding: 1rem;
+}
+@media(max-width: 1020px) {
+	.titulo3{
+		padding: 1rem;
+		font-size: 40px;
+		font-weight: 200;
+	}
+	.grillas{
+		grid-template-columns: repeat(2, 0.5fr);
+		gap: 1rem;
+	}
+}

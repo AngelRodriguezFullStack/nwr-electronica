@@ -1,0 +1,349 @@
+* {
+  font-family: roboto;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  max-width: 100%;
+}
+
+.logo__nuevo {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.navbar__nuevo {
+  background-color: #accabe;
+}
+
+.header {
+  justify-content: center;
+  align-content: center;
+}
+
+.header .nav-links li {
+  padding: 0px 10px;
+  transition: all 0.3s;
+}
+
+.header .nav-links li:hover {
+  transform: scale(1.3);
+}
+
+.header .nav-links a {
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+
+.header .nav-links li a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.contenedor-1 {
+  padding: 3rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.titulo1 {
+  padding: 3rem;
+  font-size: 150px;
+  font-weight: 500;
+}
+
+.parrafo1 {
+  padding-left: 3rem;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.contenedor-imagen {
+  display: flex;
+  justify-content: right;
+  padding-right: 3rem;
+}
+
+.imagen-inicio {
+  height: 200px;
+  width: 200px;
+  border-radius: 5%;
+  border: black;
+}
+
+body {
+  background-color: #accabe;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer1 {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #89c0aa;
+  text-align: center;
+  margin-top: auto;
+}
+
+.titulo3 {
+  padding: 2rem;
+  font-size: 80px;
+  font-weight: 400;
+}
+
+.contenedor-parrafo-servicios {
+  padding: 1rem;
+}
+
+.parrafo-servicio {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.grillas {
+  display: grid;
+  grid-template-columns: repeat(4, 0.5fr);
+  justify-items: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.grilla {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+@media (max-width: 1020px) {
+  .titulo3 {
+    padding: 1rem;
+    font-size: 40px;
+    font-weight: 200;
+  }
+  .grillas {
+    grid-template-columns: repeat(2, 0.5fr);
+    gap: 1rem;
+  }
+}
+.titulo__garantias {
+  padding: 2rem;
+  font-size: 100px;
+  font-weight: 450;
+}
+
+.animado {
+  width: 700px;
+  height: 60px;
+  color: black;
+  font-size: 60px;
+  line-height: 60px;
+  position: absolute;
+  top: 0;
+  right: 500px;
+  bottom: 0;
+  left: -500px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.h2_2 {
+  font-size: 20px;
+  display: flex;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.garantia-ul {
+  list-style: none;
+  padding-left: 350px;
+  font-size: 27px;
+  animation: cambiar 30s infinite;
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes cambiar {
+  0% {
+    margin-top: 0;
+  }
+  5% {
+    margin-top: -60;
+  }
+  10% {
+    margin-top: -120px;
+  }
+  15% {
+    margin-top: -180px;
+  }
+  20% {
+    margin-top: -240px;
+  }
+  25% {
+    margin-top: -300px;
+  }
+  30% {
+    margin-top: -360px;
+  }
+  35% {
+    margin-top: -420px;
+  }
+  40% {
+    margin-top: -480px;
+  }
+  45% {
+    margin-top: -540px;
+  }
+  50% {
+    margin-top: -600px;
+  }
+  55% {
+    margin-top: -660px;
+  }
+  60% {
+    margin-top: -720px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+@media (max-width: 1700px) {
+  .titulo__garantias {
+    font-weight: 250px;
+    font-size: 100px;
+  }
+  .animado {
+    position: absolute;
+    left: -300px;
+  }
+  .garantia-ul {
+    padding-left: 250px;
+  }
+}
+@media (max-width: 1500px) {
+  .header {
+    display: flex;
+    padding-left: -100px;
+  }
+  .titulo__garantias {
+    font-size: 90px;
+  }
+  .animado {
+    position: absolute;
+    left: -200px;
+  }
+}
+.title-informacion {
+  padding: 1rem;
+  font-size: 90px;
+  font-weight: 500;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contenedor-informacion {
+  padding: 0.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-inline: 1.5rem;
+}
+
+.contenedor-informacion .h2-informacion {
+  font-size: 25px;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.content-tittle {
+  display: flex;
+}
+.content-tittle .titulo2 {
+  font-size: 90px;
+  font-weight: 500;
+  padding: 3rem;
+}
+
+.content-ubication {
+  display: flex;
+  padding-left: 3rem;
+}
+.content-ubication .ubication-neuquen {
+  padding: 1rem;
+  border-radius: 5rem;
+}
+
+.body__contacto {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  padding: 50px 55px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  text-align: center;
+  width: 340px;
+}
+
+.input__form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.h2__contacto {
+  padding-bottom: 1rem;
+  font-size: 30px;
+}
+
+label {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  padding: 17px 25px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.btn__contacto {
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.link__ws {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.link__ws a {
+  color: #239b4b;
+}
+
+@media (max-width: 991px) {
+  .body__contacto {
+    padding: 30px;
+  }
+  form {
+    padding: 50px 30px;
+    width: 100%;
+  }
+  input {
+    padding: 15px;
+  }
+}/*# sourceMappingURL=scss.css.map */

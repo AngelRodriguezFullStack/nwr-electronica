@@ -1,0 +1,33 @@
+.logo__nuevo{
+	font-size: 50px;
+	font-weight: 500;
+}
+
+.navbar__nuevo{
+	background-color: #accabe;
+}
+
+.header{
+	justify-content: center;
+	align-content: center;
+}
+.header .nav-links li{
+	
+	padding: 0px 10px;
+	transition: all 0.3s;
+
+	
+}
+
+.header .nav-links li:hover{
+	transform: scale(1.3);
+}
+
+.header .nav-links a{
+	font-weight: 700;
+	color: rgb(0, 0, 0);
+}
+
+.header .nav-links li a:hover{
+	color: rgb(0, 0, 0);
+}

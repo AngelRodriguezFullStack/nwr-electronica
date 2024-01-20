@@ -1,0 +1,93 @@
+.titulo__garantias{
+    padding: 2rem;
+    font-size: 100px;
+    font-weight: 450;
+}
+.animado{
+	
+	width: 700px;
+	height: 60px;
+	color: black;
+	font-size: 60px;
+	line-height: 60px;
+	
+	position: absolute;
+	top: 0;
+	right: 500px;
+	bottom: 0;
+	left: -500px;
+	margin: auto;
+
+	overflow: hidden;
+	
+}
+.h2_2{
+	font-size: 20px
+	;
+	display: flex;
+	padding: 10px;
+	font-weight: 600;
+}
+.garantia-ul{
+	list-style: none;
+	padding-left: 350px;
+	font-size: 27px;
+	animation: cambiar 30s infinite;
+	display: flex;
+	flex-direction: column;
+}
+@keyframes cambiar {
+	0%{margin-top: 0;}
+	5%{margin-top: -60;}
+
+	10%{margin-top: -120px;}
+	15%{margin-top: -180px;}
+	
+	20%{margin-top: -240px;}
+	25%{margin-top: -300px;}
+
+	30%{margin-top: -360px;}
+	35%{margin-top: -420px;}
+
+	40%{margin-top: -480px;}
+	45%{margin-top: -540px;}
+
+	50%{margin-top: -600px;}
+	55%{margin-top: -660px;}
+
+	60%{margin-top: -720px;}
+
+	100%{margin-top: 0;}
+	
+}
+
+
+@media (max-width: 1700px ) {
+	.titulo__garantias{
+		font-weight: 250px;
+		font-size: 100px;
+	}	
+		.animado {
+			position: absolute;
+			left: -300px;
+		}
+		.garantia-ul{
+			padding-left: 250px;
+		}
+
+	}
+@media (max-width: 1500px)	{
+	.header{
+		display: flex;
+		padding-left: -100px;
+	}
+
+	.titulo__garantias{
+		font-size: 90px;
+	}
+	.animado{
+		position: absolute;
+		left: -200px;
+	}
+}
+
