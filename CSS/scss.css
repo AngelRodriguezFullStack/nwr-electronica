@@ -60,7 +60,7 @@ a {
 
 .parrafo1 {
   padding-left: 3rem;
-  font-weight: 200;
+  font-weight: 500;
   font-size: 20px;
 }
 
@@ -332,6 +332,10 @@ input, textarea {
 }
 
 .link__ws a {
+  color: #239b4b;
+}
+
+.icono__ws {
   color: #239b4b;
 }
 
