@@ -21,17 +21,14 @@
 
 .contenedor-imagen{
 	display: flex;
-	justify-content: right;
-	padding-right: 3rem;
-	
-	
+	justify-content: center;
 }
 
 .imagen-inicio{
  height: 200px;
  width: 200px;
  border-radius: 5%;
- border: black;
+ max-width: 100%;
 
 }
 
@@ -39,4 +36,24 @@ body{
     background-color: #accabe;	
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh; }
+	min-height: 100vh; 
+}
+
+@media(max-width: "1000px"){
+	.contenedor-1{
+
+		.parrafo1{
+			font-weight: 700;
+			font-size: 30px;
+		}
+	}
+}
+@media(max-width: "500px"){
+	.contenedor-1{
+
+		.parrafo1{
+			font-size: 40px;
+			font-weight: 800;
+		}
+}
+}
