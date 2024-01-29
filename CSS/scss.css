@@ -110,7 +110,6 @@ body {
   padding: 20px 0;
   background-color: #89c0aa;
   text-align: center;
-  margin-top: auto;
 }
 
 .titulo3 {
@@ -175,14 +174,15 @@ body {
   position: relative;
   top: 0;
   bottom: 0;
-  left: 100px;
+  left: 90px;
   overflow: hidden;
 }
 
 .h2_2 {
   font-size: 20px;
-  padding: 10px;
+  padding-bottom: 10px;
   font-weight: 600;
+  display: inline-block;
 }
 
 .animacion {
@@ -201,6 +201,10 @@ body {
 .grilla-garantias {
   grid-column: 5/10;
   grid-row: 3/9;
+}
+
+.animacion-rep {
+  display: inline;
 }
 
 @keyframes cambiar {
@@ -260,9 +264,6 @@ body {
   .titulo__garantias {
     font-size: 90px;
   }
-  .contenedor__animacion {
-    left: 100px;
-  }
 }
 @media (max-width: 1400px) {
   .contenedor__animacion {
@@ -285,7 +286,7 @@ body {
     top: -100;
     right: 100px;
     bottom: 350px;
-    left: 50px;
+    left: 40px;
   }
 }
 @media (max-width: 490px) {
@@ -297,7 +298,6 @@ body {
     top: -80;
     right: 80px;
     bottom: 320px;
-    left: 15px;
   }
 }
 .title-informacion {
@@ -357,6 +357,9 @@ body {
 .body__contacto {
   min-height: 100vh;
   display: flex;
+  justify-items: center;
+  align-items: center;
+  padding: 0px;
 }
 
 form {
