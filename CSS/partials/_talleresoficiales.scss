@@ -10,10 +10,25 @@
 }
 .content-ubication{
 	display: flex;
-	padding-left: 3rem;
+	padding-left: 2rem;
 
     .ubication-neuquen{
         padding: 1rem;
         border-radius: 5rem;
     } 
+}
+
+@media(max-width: "450px"){
+
+    .content-tittle{
+
+        .titulo2{
+            padding: 1.5rem;
+            font-size: 50px;
+        }
+
+        .parrafo1{
+            padding-left: 1rem;
+        }
+    }
 }
