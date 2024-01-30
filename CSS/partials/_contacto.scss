@@ -1,8 +1,7 @@
 .body__contacto{
-	min-height: 100vh;
-	display: flex;
 	align-items: center;
 	justify-content: center;
+	
 }
 
 form{
@@ -11,7 +10,7 @@ form{
 	border-radius: 20px;
 	text-align: center;
 	width: 340px;
-
+	
 }
 
 .input__form{
@@ -58,6 +57,14 @@ input, textarea{
 
 .icono__ws{
 	color: #239b4b;
+}
+
+.footer-contacto{
+	
+	padding: 20px 0;
+	
+	text-align: center;
+	margin-top: auto;
 }
 @media(max-width: 991px) {
 	.body__contacto{

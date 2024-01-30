@@ -108,7 +108,6 @@ body {
 }
 .footer1 {
   padding: 20px 0;
-  background-color: #89c0aa;
   text-align: center;
   margin-top: auto;
 }
@@ -215,7 +214,6 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   padding-right: 0.5rem;
-  background-color: #89c0aa;
   text-align: center;
 }
 
@@ -442,8 +440,6 @@ body {
   }
 }
 .body__contacto {
-  min-height: 100vh;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -500,6 +496,12 @@ input, textarea {
 
 .icono__ws {
   color: #239b4b;
+}
+
+.footer-contacto {
+  padding: 20px 0;
+  text-align: center;
+  margin-top: auto;
 }
 
 @media (max-width: 991px) {
